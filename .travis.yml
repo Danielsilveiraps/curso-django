@@ -1,0 +1,10 @@
+language: python
+dist: xenial
+sudo: true
+python:
+  - 3.9
+
+end:
+   global:
+     - PIPENV_VENV_IN_PROJECT=1
+     - PIPENV_IGNORE_VIRTUALENVS=1
