@@ -4,4 +4,4 @@ python:
 install:
   - pipenv install -d
 script:
-  - flake8
+  - pipenv run flake8 .
